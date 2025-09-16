@@ -317,7 +317,7 @@ body {
     background-color: var(--secondary-bg);
     border: 3px solid var(--primary-color);
     overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0, 206, 209, 0.3);
+    box-shadow: 0 5px 20px oklab(82.976% -0.14006 -0.02686 / 0.6);
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
