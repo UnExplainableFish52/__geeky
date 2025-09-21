@@ -148,7 +148,12 @@ body {
 /* Media Queries for Mobile Menu */
 @media (max-width: 768px) {
     .navbar {
-        padding: 0.5rem 1.5rem;
+    height: 6vh;      
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px; 
+    min-height: 0;   
     }
     
     .nav-brand {
@@ -178,6 +183,8 @@ body {
         padding: 0;
         max-height: 0;
         overflow: hidden;
+        justify-content: flex-start; /* Change from center to start */
+        padding-top: 2rem; /* Add padding to top */
         transition: max-height 0.4s ease, padding 0.4s ease, opacity 0.3s ease;
         z-index: 1000; /* Increased z-index */
         opacity: 0;
@@ -239,14 +246,6 @@ body {
     font-size: 0.9rem;
     opacity: 0.8;
     margin-bottom: 0.5rem;
-}
-
-/* Update media query for mobile menu */
-@media screen and (max-width: 768px) {
-    .nav-links {
-        justify-content: flex-start; /* Change from center to start */
-        padding-top: 2rem; /* Add padding to top */
-    }
 }
 
 /* Generic Page Title Styles */
@@ -469,6 +468,7 @@ body {
     padding: 2rem;
     background-color: rgba(42, 42, 42, 0.3);
     border-radius: 20px;
+    border: 3px solid cyan;
     backdrop-filter: blur(10px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
@@ -598,6 +598,7 @@ body {
     padding: 2rem;
     background-color: rgba(42, 42, 42, 0.3);
     border-radius: 20px;
+    border: 3px solid #00f6ff;    
     backdrop-filter: blur(10px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
@@ -734,6 +735,7 @@ body {
     border: 1px solid rgba(95, 158, 160, 0.1);
     height: 100%;
     display: flex;
+    border: 1px solid cyan;
     flex-direction: column;
     position: relative;
 }
