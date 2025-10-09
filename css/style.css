@@ -161,17 +161,17 @@ body {
 /* Media Queries for Mobile Menu */
 @media (max-width: 768px) {
     .navbar {
-    height: 9vh;      
+    height: 7vh;      
     left: 0;
     right: 0;
-    height: 7vh;
-    padding-top: 0.25rem;
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-    padding-bottom: 0.25rem;
+    padding: 0.3rem 1rem;
+    width: 100vw;
+    margin: auto;
+    box-sizing: border-box;
+    position: fixed;
     min-height: 6vh;   
     }
-    
+ 
     .nav-brand {
         width: 100%;
         justify-content: space-between;
