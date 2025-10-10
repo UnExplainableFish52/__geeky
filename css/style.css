@@ -29,7 +29,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2.5rem 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 /* Navbar Styles with updated compact design */
@@ -126,7 +127,7 @@ body {
 @media (max-width: 768px) {
     /* Navigation */
     .navbar {
-        padding: 0.3rem 1rem;
+        padding: 0.4rem 0.3rem 0.5rem 0.5rem;
         width: 100vw;
         left: 0;
         right: 0;
@@ -234,7 +235,7 @@ body {
     }
 }
 
-/* iPhone SE and smaller devices */
+/* iPhone SE and smaller devices 
 @media only screen and (max-width: 375px) {
     .navbar {
         height: 56px;
@@ -268,7 +269,7 @@ body {
     .content {
         margin-top: 56px;
     }
-}
+}*/
 /* Navigation Menu Header Styles */
 .nav-menu-header {
     display: none;
