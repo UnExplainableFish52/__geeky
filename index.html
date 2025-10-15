@@ -84,11 +84,6 @@
   "contactPoint": [
     {
       "@type": "ContactPoint",
-      "email": "mailto:info@saksham.info.np",
-      "contactType": "Personal"
-    },
-    {
-      "@type": "ContactPoint",
       "email": "mailto:loki@saksham.info.np",
       "contactType": "Personal"
     },
@@ -108,14 +103,18 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="nav-brand">
-            <a href="/index.html"><h2>Saksham Sharma</h2></a> 
-            <span id="theme-toggle" class="theme-toggle"><i class="fas fa-sun"></i></span>
-            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
-                <i class="fas fa-bars"></i>
-            </button> 
-        </div>
+  <nav class="navbar">
+    <div class="nav-brand">
+      <a href="/index.html" class="brand-link" aria-label="Saksham Sharma home">
+        <span class="brand-name">Saksham Sharma</span>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <i class="fas fa-sun" aria-hidden="true"></i>
+        </button>
+      </a>
+      <button class="mobile-menu-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+    </div>
         <div class="nav-links">
             <div class="nav-menu-header">
                 <h2 class="nav-menu-title">Navigate To:</h2>
