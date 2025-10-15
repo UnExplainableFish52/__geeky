@@ -315,6 +315,10 @@ img {
         margin-left: auto;
     }
 
+    .writings-container {
+        text-align: left;
+    }
+
     .nav-links {
         position: fixed;
         top: var(--nav-height);
