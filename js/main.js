@@ -194,4 +194,18 @@ document.addEventListener('DOMContentLoaded', function() {
             link.classList.add('active');
         }
     });
+
+    // ===== Service Worker Registration =====
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker
+                .register('/service-worker.js')
+                .then(reg => {
+                    console.log('Service worker registered:', reg.scope);
+                })
+                .catch(error => {
+                    console.error('Service worker registration failed:', error);
+                });
+        });
+    }
 });
