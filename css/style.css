@@ -2,10 +2,10 @@
     --primary-color: #5F9EA0;
     --accent-color: #E6E6FA;
     --highlight-color: #00CED1;
-    --bg-color: #0b1419;
+    --bg-color: #000000;
     --text-color: #f6fbff;
-    --secondary-bg: rgba(15, 20, 26, 0.92);
-    --surface-glass: rgba(20, 28, 36, 0.72);
+    --secondary-bg: rgba(0, 0, 0, 0.92);
+    --surface-glass: rgba(0, 0, 0, 0.72);
     --card-border-width: 2px;
     --card-border-color: rgba(0, 246, 255, 0.7);
     --card-radius: 18px;
